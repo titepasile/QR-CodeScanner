@@ -14,10 +14,21 @@ export default function Home() {
 }
 
 const styles = StyleSheet.create({
-    container : {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-})
+    container: {
+      flex: 1,
+      backgroundColor: '#8EACCD',
+      color: '#F9F3CC',
+      fontFamily: 'sans-serif',
+      alignItems: 'center',
+      justifyContent: 'center'
+    },
+    header: {
+      fontSize: '3rem',
+      padding: '60px',
+      fontFamily: 'cursive',
+    },
+    Button: {
+      borderRadius: '50px',
+      backgroundColor: 'blue',
+    },
+  });
