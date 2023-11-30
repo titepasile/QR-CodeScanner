@@ -1,47 +1,30 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Button, TouchableOpacity, Text, View } from 'react-native';
-import { BarCodeScanner } from 'expo-barcode-scanner';
 import { Camera } from 'expo-camera';
+import React from "react";
 
-const handleScan = () => {
-  // Hier die QR-Code-Scan Logik
-};
+import Scanner from './screens/Scanner';
+import Home from './screens/Home';
 
-export default function App() {
-  //const. etc.
-  const [hasPermission, setHasPermission] = useState(null);
-  const [scanned, setScanned] = useState(false);
+import { NavigationContainer } from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
-  //Programmlogik mit dem QR-Code Scannen
+const Stack = createStackNavigator();
 
-  return (
-    <View style={styles.container}>
-      <header style={styles.header}>QR-Code Scanner</header>
-      <Text>Here is our super QR-Code Scanner.</Text>
-      <StatusBar style="auto" />
-      <Button title="Scannen" onPress={handleScan} />
-    </View>
+function App() {
+  return(
+    <Stack.Navigator>
+      <Stack.Screen name='Home' component={Home} />
+      <Stack.Screen name={Scanner} component={Scanner} />
+    </Stack.Navigator>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#8EACCD',
-    color: '#F9F3CC',
-    fontFamily: 'sans-serif',
-    alignItems: 'center',
-  },
-  header: {
-    fontSize: '3rem',
-    padding: '60px',
-    fontFamily: 'cursive',
-  },
-  Button: {
-    borderRadius: '50px',
-    backgroundColor: 'blue',
-  },
-});
-
-// export default App;
+export default () => {
+  return(
+    <NavigationContainer>
+      <App/> 
+    </NavigationContainer>
+  )
+}
