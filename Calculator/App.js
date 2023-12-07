@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Button, TouchableOpacity, Text, View } from 'react-native';
-import { Camera } from 'expo-camera';
 
 import Scanner from './screens/Scanner';
 import Home from './screens/Home';

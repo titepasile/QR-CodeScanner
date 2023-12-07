@@ -1,4 +1,4 @@
-import { View, Button, StyleSheet } from 'react-native'
+import { View, Button, StyleSheet, Text } from 'react-native'
 import React from 'react'
 
 import { useNavigation } from '@react-navigation/native'
@@ -8,7 +8,7 @@ export default function Home() {
 
     return(
         <View style={styles.container}>
-            <header style={styles.header}>QR-Code Scanner</header>
+            <Text style={styles.header}>QR-Code Scanner</Text>
             <Button title='Scan' onPress={()=> navigation.navigate('Scanner')} />
         </View>
     )
@@ -24,9 +24,9 @@ const styles = StyleSheet.create({
       justifyContent: 'center'
     },
     header: {
-      fontSize: '3rem',
       padding: '60px',
       fontFamily: 'cursive',
+      color: '#F9F3CC',
     },
     Button: {
       borderRadius: '50px',
