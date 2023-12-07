@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Button, TouchableOpacity, Text, View } from 'react-native';
 import { Camera } from 'expo-camera';
-import React from "react";
 
 import Scanner from './screens/Scanner';
 import Home from './screens/Home';
@@ -16,7 +15,7 @@ function App() {
   return(
     <Stack.Navigator>
       <Stack.Screen name='Home' component={Home} />
-      <Stack.Screen name={Scanner} component={Scanner} />
+      <Stack.Screen name='Scanner' component={Scanner} />
     </Stack.Navigator>
   );
 }

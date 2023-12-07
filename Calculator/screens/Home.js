@@ -8,6 +8,7 @@ export default function Home() {
 
     return(
         <View style={styles.container}>
+            <header style={styles.header}>QR-Code Scanner</header>
             <Button title='Scan' onPress={()=> navigation.navigate('Scanner')} />
         </View>
     )
