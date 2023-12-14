@@ -19,17 +19,16 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#8EACCD',
       color: '#F9F3CC',
-      fontFamily: 'sans-serif',
       alignItems: 'center',
       justifyContent: 'center'
     },
     header: {
-      padding: '60px',
+      padding: '10%',
       fontFamily: 'cursive',
       color: '#F9F3CC',
     },
     Button: {
-      borderRadius: '50px',
+      borderRadius: '8%',
       backgroundColor: 'blue',
     },
   });
