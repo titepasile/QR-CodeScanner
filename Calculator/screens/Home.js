@@ -24,12 +24,14 @@ const styles = StyleSheet.create({
       justifyContent: 'center'
     },
     header: {
-      padding: '60px',
+      padding: 60,
+      fontSize:30,
       fontFamily: 'cursive',
-      color: '#F9F3CC',
+      color: '#CDC2AE',
     },
     Button: {
       borderRadius: '50px',
-      backgroundColor: 'blue',
+      backgroundColor: '#116A7B',
+
     },
   });
