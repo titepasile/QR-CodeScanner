@@ -1,1 +1,1 @@
-# CalculatorApp
+# QR-CodeScanner
