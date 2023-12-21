@@ -26,19 +26,10 @@ const styles = StyleSheet.create({
     header: {
       padding: '60px',
       fontFamily: 'cursive',
-<<<<<<< Updated upstream
       color: '#F9F3CC',
     },
     Button: {
       borderRadius: '50px',
       backgroundColor: 'blue',
-=======
-      color: '#F1DDBF',
-    },
-    Button: {
-      borderRadius: '50px',
-      backgroundColor: '#DAE5D0',
-      color: '#DAE5D0',
->>>>>>> Stashed changes
     },
   });
