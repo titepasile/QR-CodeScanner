@@ -17,7 +17,7 @@ export default function Home() {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#8EACCD',
+      backgroundColor: '#525E75',
       color: '#F9F3CC',
       fontFamily: 'sans-serif',
       alignItems: 'center',
@@ -26,10 +26,19 @@ const styles = StyleSheet.create({
     header: {
       padding: '60px',
       fontFamily: 'cursive',
+<<<<<<< Updated upstream
       color: '#F9F3CC',
     },
     Button: {
       borderRadius: '50px',
       backgroundColor: 'blue',
+=======
+      color: '#F1DDBF',
+    },
+    Button: {
+      borderRadius: '50px',
+      backgroundColor: '#DAE5D0',
+      color: '#DAE5D0',
+>>>>>>> Stashed changes
     },
   });
