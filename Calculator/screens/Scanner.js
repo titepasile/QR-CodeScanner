@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Text, View, Button, StyleSheet, Linking } from "react-native";
 import { BarCodeScanner } from "expo-barcode-scanner";
 
+//Scann-Funktion. Von Petit- Sirigu von Zeile 6-20 und 32-43
 export default function Scanner() {
   const [hasPermission, setHasPermission] = useState(null);
   const [scanned, setScanned] = useState(false);
