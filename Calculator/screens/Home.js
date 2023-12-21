@@ -1,7 +1,8 @@
 import { View, Button, StyleSheet, Text, Image } from 'react-native'
 import React from 'react'
-
 import { useNavigation } from '@react-navigation/native'
+
+//Im ganzen Code vereinzelte Teile (Zeilen 7,8, 17,18, 23-46)
 
 export default function Home() {
     const navigation = useNavigation();
