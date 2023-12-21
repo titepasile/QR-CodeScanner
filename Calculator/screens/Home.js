@@ -19,17 +19,18 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#8EACCD',
       color: '#F9F3CC',
-      fontFamily: 'sans-serif',
       alignItems: 'center',
       justifyContent: 'center'
     },
     header: {
-      padding: '60px',
+      kamera-dddd
+      padding: 60,
+      fontSize:30,
+      padding: '10%',
+      main
       fontFamily: 'cursive',
-      color: '#F9F3CC',
+      color: '#CDC2AE',
     },
     Button: {
-      borderRadius: '50px',
-      backgroundColor: 'blue',
     },
   });
