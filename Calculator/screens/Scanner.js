@@ -44,9 +44,12 @@ export default function Scanner() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#8EACCD",
+    backgroundColor: "#525E75",
     color: "#F9F3CC",
     alignItems: "center",
     justifyContent: "center",
   },
+  text:{
+    color: '#DAE5D0',
+  }
 });
