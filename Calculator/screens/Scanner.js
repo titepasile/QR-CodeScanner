@@ -20,7 +20,7 @@ export default function Scanner() {
 
   //Permission
   if (hasPermission === null) {
-    return <test>Requesting for camera Permission</test>;
+    return <text>Requesting for camera Permission</text>;
   }
   if (hasPermission === false) {
     return <text>No access to camera</text>;
@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#8EACCD",
     color: "#F9F3CC",
-    fontFamily: "sans-serif",
     alignItems: "center",
     justifyContent: "center",
   },
